@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		630325D117336423003FF700 /* ExampleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 630325C517336423003FF700 /* ExampleSpec.m */; };
+		63476354172C92B20089823A /* Pawn.h in Headers */ = {isa = PBXBuildFile; fileRef = 6347634F172C8D2D0089823A /* Pawn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63915E88172C88FA006F9009 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63915E87172C88FA006F9009 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		63915E82172C88FA006F9009 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		630325C517336423003FF700 /* ExampleSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleSpec.m; sourceTree = "<group>"; };
+		630325C617336423003FF700 /* TemplateInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
+		6303FCDE1735A8580006948A /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
+		6303FCDF1735A87B0006948A /* TemplateIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TemplateIcon.icns; sourceTree = "<group>"; };
+		630EF1E81737464500C3CBA4 /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
+		630EF2161737493400C3CBA4 /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
+		6347634F172C8D2D0089823A /* Pawn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pawn.h; sourceTree = "<group>"; };
+		63915E5A172C84DF006F9009 /* Rakefile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
+		63915E5B172C84DF006F9009 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme.md; sourceTree = "<group>"; };
+		63915E61172C84DF006F9009 /* ___FILEBASENAME___Spec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___FILEBASENAME___Spec.m"; sourceTree = "<group>"; };
+		63915E62172C84DF006F9009 /* TemplateIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TemplateIcon.icns; sourceTree = "<group>"; };
+		63915E63172C84DF006F9009 /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
+		63915E65172C8563006F9009 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		63915E84172C88FA006F9009 /* libPawn-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPawn-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63915E87172C88FA006F9009 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		63915E8B172C88FA006F9009 /* Pawn-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pawn-iOS-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63915E81172C88FA006F9009 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63915E88172C88FA006F9009 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		630325B417335991003FF700 /* Project Templates */ = {
+			isa = PBXGroup;
+			children = (
+				630325B5173359A0003FF700 /* Pawn */,
+			);
+			path = "Project Templates";
+			sourceTree = "<group>";
+		};
+		630325B5173359A0003FF700 /* Pawn */ = {
+			isa = PBXGroup;
+			children = (
+				630EF1E51737464500C3CBA4 /* Objective-C Unit Test Bundle.xctemplate */,
+				630EF2151737493400C3CBA4 /* iPhone Base.xctemplate */,
+				630325C417336423003FF700 /* Pawn Example Spec.xctemplate */,
+				6303FCDC1735A8580006948A /* Pawn iOS Unit Testing Bundle.xctemplate */,
+			);
+			path = Pawn;
+			sourceTree = "<group>";
+		};
+		630325C417336423003FF700 /* Pawn Example Spec.xctemplate */ = {
+			isa = PBXGroup;
+			children = (
+				630325C517336423003FF700 /* ExampleSpec.m */,
+				630325C617336423003FF700 /* TemplateInfo.plist */,
+			);
+			path = "Pawn Example Spec.xctemplate";
+			sourceTree = "<group>";
+		};
+		6303FCDC1735A8580006948A /* Pawn iOS Unit Testing Bundle.xctemplate */ = {
+			isa = PBXGroup;
+			children = (
+				6303FCDF1735A87B0006948A /* TemplateIcon.icns */,
+				6303FCDE1735A8580006948A /* TemplateInfo.plist */,
+			);
+			path = "Pawn iOS Unit Testing Bundle.xctemplate";
+			sourceTree = "<group>";
+		};
+		630EF1E51737464500C3CBA4 /* Objective-C Unit Test Bundle.xctemplate */ = {
+			isa = PBXGroup;
+			children = (
+				630EF1E81737464500C3CBA4 /* TemplateInfo.plist */,
+			);
+			path = "Objective-C Unit Test Bundle.xctemplate";
+			sourceTree = "<group>";
+		};
+		630EF2151737493400C3CBA4 /* iPhone Base.xctemplate */ = {
+			isa = PBXGroup;
+			children = (
+				630EF2161737493400C3CBA4 /* TemplateInfo.plist */,
+			);
+			path = "iPhone Base.xctemplate";
+			sourceTree = "<group>";
+		};
+		63915E4E172C845C006F9009 = {
+			isa = PBXGroup;
+			children = (
+				63915E65172C8563006F9009 /* .gitignore */,
+				63915E5A172C84DF006F9009 /* Rakefile */,
+				63915E5B172C84DF006F9009 /* Readme.md */,
+				63915E5C172C84DF006F9009 /* Sources */,
+				63915E93172C8963006F9009 /* Target Support */,
+				63915E86172C88FA006F9009 /* Frameworks */,
+				63915E85172C88FA006F9009 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63915E5C172C84DF006F9009 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6347634F172C8D2D0089823A /* Pawn.h */,
+				63915E5D172C84DF006F9009 /* Xcode Integration */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		63915E5D172C84DF006F9009 /* Xcode Integration */ = {
+			isa = PBXGroup;
+			children = (
+				63915E5E172C84DF006F9009 /* File Templates */,
+				630325B417335991003FF700 /* Project Templates */,
+			);
+			path = "Xcode Integration";
+			sourceTree = "<group>";
+		};
+		63915E5E172C84DF006F9009 /* File Templates */ = {
+			isa = PBXGroup;
+			children = (
+				63915E5F172C84DF006F9009 /* Pawn */,
+			);
+			path = "File Templates";
+			sourceTree = "<group>";
+		};
+		63915E5F172C84DF006F9009 /* Pawn */ = {
+			isa = PBXGroup;
+			children = (
+				63915E60172C84DF006F9009 /* Pawn Spec.xctemplate */,
+			);
+			path = Pawn;
+			sourceTree = "<group>";
+		};
+		63915E60172C84DF006F9009 /* Pawn Spec.xctemplate */ = {
+			isa = PBXGroup;
+			children = (
+				63915E61172C84DF006F9009 /* ___FILEBASENAME___Spec.m */,
+				63915E62172C84DF006F9009 /* TemplateIcon.icns */,
+				63915E63172C84DF006F9009 /* TemplateInfo.plist */,
+			);
+			path = "Pawn Spec.xctemplate";
+			sourceTree = "<group>";
+		};
+		63915E85172C88FA006F9009 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63915E84172C88FA006F9009 /* libPawn-iOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63915E86172C88FA006F9009 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63915E87172C88FA006F9009 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63915E93172C8963006F9009 /* Target Support */ = {
+			isa = PBXGroup;
+			children = (
+				63915E8B172C88FA006F9009 /* Pawn-iOS-Prefix.pch */,
+			);
+			path = "Target Support";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		63476353172C92A10089823A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63476354172C92B20089823A /* Pawn.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		63915E83172C88FA006F9009 /* Pawn-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63915E90172C88FA006F9009 /* Build configuration list for PBXNativeTarget "Pawn-iOS" */;
+			buildPhases = (
+				63915E80172C88FA006F9009 /* Sources */,
+				63915E81172C88FA006F9009 /* Frameworks */,
+				63915E82172C88FA006F9009 /* CopyFiles */,
+				63476353172C92A10089823A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pawn-iOS";
+			productName = "Pawn-iOS";
+			productReference = 63915E84172C88FA006F9009 /* libPawn-iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63915E50172C845C006F9009 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Doubled Rooks Inc.";
+			};
+			buildConfigurationList = 63915E53172C845C006F9009 /* Build configuration list for PBXProject "Pawn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 63915E4E172C845C006F9009;
+			productRefGroup = 63915E85172C88FA006F9009 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63915E83172C88FA006F9009 /* Pawn-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63915E80172C88FA006F9009 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630325D117336423003FF700 /* ExampleSpec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		63915E55172C845C006F9009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+			};
+			name = Debug;
+		};
+		63915E56172C845C006F9009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+			};
+			name = Release;
+		};
+		63915E91172C88FA006F9009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/Pawn_iOS.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Targets/Pawn-iOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "/include/$(PROJECT_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		63915E92172C88FA006F9009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/Pawn_iOS.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Targets/Pawn-iOS-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "/include/$(PROJECT_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63915E53172C845C006F9009 /* Build configuration list for PBXProject "Pawn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63915E55172C845C006F9009 /* Debug */,
+				63915E56172C845C006F9009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63915E90172C88FA006F9009 /* Build configuration list for PBXNativeTarget "Pawn-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63915E91172C88FA006F9009 /* Debug */,
+				63915E92172C88FA006F9009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63915E50172C845C006F9009 /* Project object */;
+}

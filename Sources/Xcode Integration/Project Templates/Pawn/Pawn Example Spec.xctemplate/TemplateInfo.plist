@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>com.doubled-rooks.pawn.exampleSpec</string>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>InjectionTargets</key>
+	<array>
+		<string>com.doubled-rooks.pawn.iOSUnitTestBundle</string>
+	</array>
+	<key>Nodes</key>
+	<array>
+		<string>ExampleSpec.m</string>
+	</array>
+	<key>Definitions</key>
+	<dict>
+		<key>ExampleSpec.m</key>
+		<dict>
+			<key>Path</key>
+			<string>ExampleSpec.m</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

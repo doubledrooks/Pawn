@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>com.doubled-rooks.pawn.iOSUnitTestBundle</string>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Description</key>
+	<string>This target builds a unit test bundle that uses Cocoa Touch APIs and Pawn.</string>
+	<key>Concrete</key>
+	<true/>
+	<key>Ancestors</key>
+	<array>
+		<string>com.doubled-rooks.pawn.objectiveCUnitTestBundle</string>
+		<string>com.doubled-rooks.pawn.iPhoneBase</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>EmptyReplacement</key>
+			<string>&lt;Your Test Target&gt;</string>
+			<key>SortOrder</key>
+			<integer>0</integer>
+			<key>Default</key>
+			<string></string>
+			<key>Required</key>
+			<true/>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Identifier</key>
+			<string>testTargetName</string>
+			<key>Name</key>
+			<string>Test Target</string>
+			<key>Description</key>
+			<string>The name of the project target this test suite is for</string>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>SortOrder</key>
+			<integer>1</integer>
+			<key>Identifier</key>
+			<string>bundleLoader</string>
+			<key>Name</key>
+			<string>Bundle Loader</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Description</key>
+			<string>The target that will load this test bundle. [typically your app]</string>
+			<key>Default</key>
+			<string>$(BUILT_PRODUCTS_DIR)/___VARIABLE_testTargetName___.app/___VARIABLE_testTargetName___</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+	<key>Nodes</key>
+	<array>
+		<string>___PACKAGENAME___-Prefix.pch:objC:importFoundation</string>
+		<string>___PACKAGENAME___-Prefix.pch:objC:importCocoa</string>
+	</array>
+	<key>SortOrder</key>
+	<integer>1</integer>
+	<key>Targets</key>
+	<array>
+		<dict>
+			<key>Frameworks</key>
+			<array>
+				<string>Foundation</string>
+				<string>UIKit</string>
+			</array>
+			<key>SharedSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/___VARIABLE_testTargetName___.app/___VARIABLE_testTargetName___</string>
+				<key>OTHER_LDFLAGS</key>
+				<string>-ObjC -all_load -lc++</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<string>&quot;$(SDKROOT)/Developer/Library/Frameworks&quot; &quot;$(DEVELOPER_LIBRARY_DIR)/Frameworks&quot;</string>
+				<key>HEADER_SEARCH_PATHS</key>
+				<string>&quot;$(CONFIGURATION_BUILD_DIR)&quot;</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
