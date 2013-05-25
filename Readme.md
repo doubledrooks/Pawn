@@ -9,7 +9,7 @@ Super simple unit testing for iOS.  It just works.
 
 Pawn is (currently) a wrapper layer over Cedar and Expecta.  All three need to be added to your project:
 
-    $ git submodule add git@github.com:doubledrooks/pawn.git Externals/Pawn
+    $ git submodule add git@github.com:doubledrooks/Pawn.git Externals/Pawn
     $ git submodule add git@github.com:pivotal/cedar.git Externals/Cedar
     $ git submodule add git@github.com:petejkim/expecta.git Externals/Expecta
     $ git submodule update --init --recursive
