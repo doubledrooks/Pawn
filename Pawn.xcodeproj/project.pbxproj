@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		630325D117336423003FF700 /* ExampleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 630325C517336423003FF700 /* ExampleSpec.m */; };
 		63476354172C92B20089823A /* Pawn.h in Headers */ = {isa = PBXBuildFile; fileRef = 6347634F172C8D2D0089823A /* Pawn.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63915E88172C88FA006F9009 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63915E87172C88FA006F9009 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -252,7 +251,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				630325D117336423003FF700 /* ExampleSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
