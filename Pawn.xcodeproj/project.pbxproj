@@ -30,6 +30,7 @@
 		6303FCDF1735A87B0006948A /* TemplateIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TemplateIcon.icns; sourceTree = "<group>"; };
 		630EF1E81737464500C3CBA4 /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
 		630EF2161737493400C3CBA4 /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
+		631EA16017598BCE0085A293 /* .pairs */ = {isa = PBXFileReference; lastKnownFileType = text; path = .pairs; sourceTree = "<group>"; };
 		6347634F172C8D2D0089823A /* Pawn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pawn.h; sourceTree = "<group>"; };
 		63915E5A172C84DF006F9009 /* Rakefile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
 		63915E5B172C84DF006F9009 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme.md; sourceTree = "<group>"; };
@@ -111,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				63915E65172C8563006F9009 /* .gitignore */,
+				631EA16017598BCE0085A293 /* .pairs */,
 				63915E5A172C84DF006F9009 /* Rakefile */,
 				63915E5B172C84DF006F9009 /* Readme.md */,
 				63915E5C172C84DF006F9009 /* Sources */,
