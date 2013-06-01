@@ -1,6 +1,7 @@
 #import <Pawn/Pawn.h>
 #import "___FILEBASENAME___.h"
 
+
 SpecBegin(___FILEBASENAMEASIDENTIFIER___Spec)
 
 describe(@"___FILEBASENAMEASIDENTIFIER___", ^{

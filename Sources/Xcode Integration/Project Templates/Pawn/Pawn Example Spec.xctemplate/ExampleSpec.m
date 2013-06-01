@@ -1,5 +1,6 @@
 #import <Pawn/Pawn.h>
 
+
 SpecBegin(ExampleSpec)
 
 /* This is not an exhaustive list of usages.
