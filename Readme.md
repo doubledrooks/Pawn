@@ -13,6 +13,9 @@ Pawn is (currently) a wrapper layer over Cedar and Expecta.  All three need to b
     $ git submodule add git@github.com:pivotal/cedar.git Externals/Cedar
     $ git submodule add git@github.com:petejkim/expecta.git Externals/Expecta
     $ git submodule update --init --recursive
+
+If you have not installed Pawn and/or Cedar on your system previously, run the following commands to install each:
+
     $ (cd Externals/Cedar; rake install)
     $ (cd Externals/Pawn; rake install:xcode)
     <Restart Xcode>
@@ -35,9 +38,12 @@ more steps to get it all running.
 1. Under Build Phases > Target Dependancies for the new target, add Pawn-iOS
 1. Under Build Phases > Link Binary With Libraries, remove and re-add the SenTestingKit framework
 1. Under Build Phases > Link Binary With Libraries, add libExpecta-iOS.a
-1. Copy Cedar-iOS.framwork from Externals/Cedar/build/Release-iphoneuniversal into your target files folder.  It is best
-to do this in the Finder.  Back in Xcode, right click on the target files folder, choose Add Files... and select the
-Cedar-iOS.framework that you just copied.
+1. Copy Cedar-iOS.framework from Externals/Cedar/build/Release-iphoneuniversal into your target files folder.
+
+(It is best to do this in the Finder.  Back in Xcode, right click on the target files folder, choose Add Files... and
+select the Cedar-iOS.framework that you just copied.  If Cedar-iOS.framework isn't present, run the following command:)
+
+    $ (cd Externals/Cedar; rake build_frameworks)
 
 That should be all you need.  Cmd-U will run the ExampleSpec included in the test bundle.  Commit.
 
