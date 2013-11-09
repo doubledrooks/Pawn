@@ -11,7 +11,7 @@ Pawn is (currently) a wrapper layer over Cedar and Expecta.  All three need to b
 
     $ git submodule add git@github.com:doubledrooks/Pawn.git Externals/Pawn
     $ git submodule add git@github.com:pivotal/cedar.git Externals/Cedar
-    $ git submodule add git@github.com:petejkim/expecta.git Externals/Expecta
+    $ git submodule add git@github.com:specta/expecta.git Externals/Expecta
     $ git submodule update --init --recursive
 
 If you have not installed Pawn and/or Cedar on your system previously, run the following commands to install each:
