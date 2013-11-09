@@ -228,7 +228,7 @@
 		63915E50172C845C006F9009 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Doubled Rooks Inc.";
 			};
 			buildConfigurationList = 63915E53172C845C006F9009 /* Build configuration list for PBXProject "Pawn" */;
@@ -263,6 +263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 1;
+				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
 		};
